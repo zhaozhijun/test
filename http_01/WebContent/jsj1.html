@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>js1</title>
+<script type="text/javascript">
+	/* var person = new Object();
+	person.userName = "zhangsan";
+	person.password = "admin";
+	person.show = function() {
+		alert(this.userName + "=====" + this.password);
+	}
+	person.show();   */
+	
+	/* function createUser(userName,password){
+		var user=new Object();
+		user.userName=userName;
+		user.password=password;
+		user.show=function(){
+			alert(this.userName+"+++++++++"+this.password);
+		}
+		return user;
+	}
+	var user=createUser("woshi","zhaozj");
+	user.show(); */
+	
+	var user=new Object(){
+		this.userName="zhang";
+		this.password="admin";
+		this.show=function(){
+			alert(this.userName+"-----"+this.password);
+		}
+	}
+	user.show();
+</script>
+</head>
+<body>
+
+</body>
+</html>
